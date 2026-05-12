@@ -60,7 +60,7 @@ Every layer only talks to the layer directly above or below it. Nothing else.
 
 - Nginx is configured as a Reverse Proxy
 - Deployed inside Private Subnets 1 and 2
-- Auto Scaling based on CPU utilization above 50 percent
+- Auto Scaling based on ALB Request Count per Target (threshold: 50 requests per target)
 - Health checks configured on Load Balancer target group
 
 ---
