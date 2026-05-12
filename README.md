@@ -87,7 +87,7 @@ Note: In a production setup I would use Amazon RDS with Multi-AZ for the databas
 
 ---
 
-**Monitoring and Alerts**
+## Monitoring and Alerts
 
 * CloudWatch monitors ALB Request Count per Target on the Web Tier
 * CloudWatch monitors CPU utilization on the Application Tier
